@@ -1,0 +1,18 @@
+*{
+    background-color: aquamarine;
+}
+#titulo {
+    color: #6b9c1c;
+    text-align: center;
+    background-color: aqua;
+    padding: 1%;
+}
+
+p{
+    background-color: black;
+    color: aliceblue
+}
+
+.parrafo{
+    background-color: aqua;
+}

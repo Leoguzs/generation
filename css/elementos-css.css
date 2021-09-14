@@ -1,0 +1,39 @@
+*{
+    background-image: url("https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 1px dashed white;  /* dashed, solid y doted para que se vea bien */
+}
+
+.subtitle{
+    background-color: #242424;
+    text-align: center;
+    color: white;
+    padding: .3%;
+}
+
+#caja, #caja2 {
+    background-color: violet;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;   /* lo centra */
+}
+
+#caja {
+
+}
+
+#caja p, #caja2 p {
+    color: white;
+    text-align: center;
+    
+}
