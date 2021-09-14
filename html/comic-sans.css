@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(188, 212, 235);
+}
+
+h1 {
+    text-align: right;
+}
+h1 span {
+    color: red;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.orange{
+    color: rgb(206, 148, 40);
+    font-weight: bolder;
+}
+
+.green-w {
+    color: green;
+    background-color: white;
+}
+
+.orange-light {
+color: orange;
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer .orange-light-em {
+    color: rgb(231, 182, 91);
+}
