@@ -1,0 +1,32 @@
+* {
+    background-color: rgb(206, 200, 200);
+
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    background-color: gray;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.red {
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.white-b {
+    background-color: white;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.section {
+margin-left: 40px;
+margin-right: 40px;}

@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(211, 73, 38);
+    padding: 5px 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+
+.row {
+    display: flex;
+}
+
+.row1 {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(76, 127, 185);
+    margin-left: 15px;
+    line-height: 200px;
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.empty {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
