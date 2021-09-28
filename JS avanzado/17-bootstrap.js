@@ -9,7 +9,7 @@ let mostrarCards = () =>{
             let col = document.createElement('div')
             col.classList.add('col-md-4')
             col.classList.add('col-sm-6') 
-           /*  col.classList.add('m-1')  */
+            col.classList.add('mb-3') 
             col.innerHTML = `<div class="card" ">
             <img src="${element.url}" class="card-img-top" alt="...">
             <div class="card-body">
