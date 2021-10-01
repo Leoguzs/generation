@@ -2,8 +2,9 @@ const $cardContainer = document.querySelector('#cardContainer')
 
 
 // Ejercicio 
-try {
-    fetch('https://api.thecatapi.com/v1/images/search')
+
+try{
+    fetch('https://jsonplaceholder.typicode.com/albums/1/photos')
     .then(response => response.json()).then(json => {
         json.forEach(element => {
             let div = document.createElement('div')
@@ -20,11 +21,25 @@ try {
             
         });
     } )
-
-} catch (e) {
+    
+} catch(e) {
     console.log(e)
-} finally {
-    console.log('Este es un ejercicio de try-catch')
 }
 
+    
+
+
+console.log('---------------------------------------')
 ////////////////////////////////Hacer lo mismo pero con otr API y con Async Await//////////////////////////////////
+const URL_API = 'https://pokeapi.co/api/v2/pokemon/'
+try{
+     fetch (URL_API)
+     .then(resp => resp.json()).then(json => {
+       console.log(json)
+      
+     })
+} catch (e){
+  console.log(e)
+} finally{
+  console.log('Otra prueba con una API')
+}
